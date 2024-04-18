@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles_register.css">
+    <script src="./JS/register.js"></script>
 </head>
 <body>
     <header class="header">
@@ -18,13 +19,13 @@
         <h1>
             Register
         </h1>
-    <form action="">
+    <form id="register" onsubmit="register(event)">
         <div class="register">
             <label for="fname"></label>
             <input type="text" placeholder="First Name" id="fname" name="fname"><br>
 
             <label for="fname"></label>
-            <input type="text" placeholder="Last Name" id="fname" name="fname"><br>
+            <input type="text" placeholder="Last Name" id="lname" name="fname"><br>
 
             <label for="Email"></label>
             <input type="email" placeholder="Email" id="email" name="email"><br>
